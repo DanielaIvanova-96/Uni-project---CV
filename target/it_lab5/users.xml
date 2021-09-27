@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <user>
+        <email>daniela@gmail.com</email>
+        <password>123</password>
+    </user>
+    <user>
+        <email>vicky@gmail.com</email>
+        <password>333</password>
+    </user>
+    <user>
+        <email>nikolay@gmail.com</email>
+        <password>555</password>
+    </user>
+</list>

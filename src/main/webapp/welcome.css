@@ -1,0 +1,236 @@
+.mainBody{
+    background-color: #ccc;
+    color: #012e5e;
+}
+
+.navProfil{
+    height: 100px;
+    background-color: #012e5e;
+}
+
+.info{
+    margin: auto;
+    width: 75%;
+    display: table;
+}
+
+.section1{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20px;
+}
+.picDiv{
+    width: 30%;
+    margin-right: 15px;
+    float: left;
+    background-color: #ffb606 ;
+}
+.pic{
+    max-width:100%;
+    max-height:100%;
+}
+
+.basicInfo{
+    width: 70%;
+    vertical-align: bottom;
+}
+.basicContent{
+    display: block;
+    margin-top: 20px;
+}
+
+.sectionTitle{
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.skills{
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills-2 {
+    width: 48%;
+    float: right;
+    margin-right: 30px;
+}
+
+.label{
+    margin-top: 20px;
+}
+
+.bar{
+    background-color: #ffb606;
+    margin-top: 10px;
+    height: 5px;
+    width: 100%;
+}
+.progress{
+    background-color: #012e5e;
+    height: 5px;
+    width: 20%;
+}
+
+.content{
+    color: #ffb606;
+    margin-top: 10px;
+}
+
+.footerProfil{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: #012e5e;
+}
+
+.button{
+    padding:20px;
+    background-color: #ffb606;
+    color: #012e5e;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top:20px;
+    margin-left:10px;
+}
+.button:hover{
+    padding:20px;
+    background-color: #012e5e;
+    color: #ffb606;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top:20px;
+    margin-left:10px;
+}
+.buttonSave{
+    padding:20px;
+    background-color: #012e5e;
+    color: white;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top:5px;
+    margin-left:400px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 0px #000000;
+    background: #dddbd8;
+    border-radius: 6px;
+    border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -4px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ffb606;
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 13px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 0px #000000;
+    background: #ffb606;
+    border-radius: 6px;
+    border: 0px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 13px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #ffb606;
+    border: 0px solid #000000;
+    border-radius: 12px;
+    box-shadow: 1px 1px 0px #000000;
+}
+input[type=range]::-ms-fill-upper {
+    background: #ffb606;
+    border: 0px solid #000000;
+    border-radius: 12px;
+    box-shadow: 1px 1px 0px #000000;
+}
+input[type=range]::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: #ffb606;
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: #ffb606;
+}
+
+.css-input {
+    padding: 0px;
+    font-size: 20px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 3px rgba(90,87,87,.87);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+.css-input:focus {
+    outline:none;
+}

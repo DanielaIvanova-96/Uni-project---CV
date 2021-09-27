@@ -1,0 +1,35 @@
+.mainBody{
+    background-color: #ccc;
+    color: #012e5e;
+}
+
+.navProfil{
+    height: 100px;
+    background-color: #012e5e;
+}
+.section1{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.button{
+    padding:20px;
+    background-color: #ffb606;
+    color: #012e5e;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top:20px;
+    margin-left:10px;
+}
+.button:hover{
+    padding:20px;
+    background-color: #012e5e;
+    color: #ffb606;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top:20px;
+    margin-left:10px;
+}

@@ -1,0 +1,43 @@
+.root{
+    margin: auto;
+    width: 100%;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+.form{
+    margin: auto;
+    width: 800px;
+    background-color:rgb(252, 169, 46);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.innerTitle{
+    margin-top: 20px;
+}
+.input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+.btn_login{
+    align-self: center;
+    width: 50%;
+    background-color: #012e5e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
